@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TiendaOnline</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https:cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+           <a href="#" class="logo">TiendaOnline</a>
+          <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="IMG/menu (2).png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Marcas</a></li>
+                    <li><a href="#">Promociones</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="IMG/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>imagen</th>
+                                        <th>nombre</th>
+                                        <th>precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">vaciar carrito</a>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="IMG/Refrigeradora-No-Frost-Side-By-Side-Oster-521-Litros-18-4-Pies-Cubicos-Silver-2-Puertas-Luz-Led-Dispensador-De-Agua-Manija-Externa-Display-Exterior-2-12794.jpg" alt="">
+            </div>
+            <div class="header-txt">
+                <h1>Ofertas especiales</h1>
+                <p>Estrena lo mejor en este año, solo para ti</p>
+                <a href="#" class="btn-1">informacion</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="IMG/Licuadora-Oster-2-Velocidades-Plastico-Control-Con-Botones-1-25147.jpg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Licuadora Oster </h3>
+                <a href="#" class="btn-2">informacion</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="IMG/Durabrand-Cafetera-12-Tazas-1-4992.jpg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Durabrad Cafetera</h3>
+                <a href="#" class="btn-2">informacion</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="IMG/Secadora-Remington-De-Cabello-3-1511.jpg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Secadora Remington</h3>
+                <a href="#" class="btn-2">informacion</a>
+            </div>
+        </div>
+
+
+    </section>
+
+    <main class="products container" id="lista-1">
+        
+        <h2>Productos</h2>
+
+        <div class="product-content">
+
+            <div class="product">
+                <img src="IMG/Lavadora-Durabrand-Semiautom-tica-de-16-kgs-Modelo-DB-WM-16-1-5033.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Lavadora Durabrand</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$360</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">agregar al carrito</a>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="IMG/Pantalla-Led-Smart-43-Xiaomi-Hd-Modelo-L43M6-6Arg-1-25632.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Led Smart 43 Xiaomi</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$635</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="IMG/Minicomponente-Durabrand-De-Sonido-2-12805.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Minicomponente Durabrand de Sonido</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$220</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">agregar al carrito</a>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="IMG/Horno-Microondas-Oster-1-1-Pies-Cubicos-30-Litros-Digital-Frente-Negro-Cuerpo-Negro-Marco-Silver-2-3915.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Horno Microondas Oster</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$250</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">agregar al carrito</a>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="IMG/Cocina-Gas-Oster-30-Pulgadas-6-Quemadores-Frente-Acero-Inoxidable-Backsplash-Parrillas-De-Hierro-Fundido-1-3924.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Cocina a Gas Oster</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$480</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">agregar al carrito</a>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="IMG/Reproductor-Durabrand-Dvd-Hdmi-6-5672.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Reproductor Durabrad</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$100</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">agregar al carrito</a>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <section class="icons container">
+        
+        <div class="icons-1">
+            <div class="icon-img">
+                <img src="IMG/i1.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Los mejores productos para tu Habitacion</h3>
+                <p>
+                    sit amet consectetur adipisicing elit
+                </p>
+            </div>
+        </div>
+
+        <div class="icons-1">
+            <div class="icon-img">
+                <img src="IMG/i2.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Los mejores productos para tu cocina</h3>
+                <p>
+                    sit amet consectetur adipisicing elit
+                </p>
+            </div>
+        </div>
+
+        <div class="icons-1">
+            <div class="icon-img">
+                <img src="IMG/i3.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Los mejores productos para tu baño</h3>
+                <p>
+                    sit amet consectetur adipisicing elit
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog container">
+        
+        <div class="blog-1">
+            <img src="IMG/multimedia.normal.96381cb3bf75ebde.53696e20526573657276617320283834295f6e6f726d616c2e77656270.webp" alt="">
+            <h3>blog Cocina</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="IMG/2106.q703.016.s.m004.c10.household_appliance_realistic_0_0.jpg" alt="">
+            <h3>blog Interiores</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="IMG/electrodomésticos-modernos-en-el-comercio-de-habitaciones-vacías-o-concepto-compras-línea-para-la-comercialización-d-marketing-194356973.jpg" alt="">
+            <h3>blog Habitación</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </p>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Conocenos</h3>
+                <ul>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Tiendas</a></li>
+                    <li><a href="#">Terminos y condiciones</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li> 
+                   
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Servicios</h3>
+                <ul>
+                    <li><a href="#">Solicitud de credito</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Contactanos</h3>
+                <ul>
+                    <li><a href="#">Linea Telefonica</a></li>
+                    <li><a href="#">+505-7778-4558</a></li>
+                    <li><a href="#">Whatsapp: 7778-4558</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><a href="#">INSTAGRAM: TiendaOnline</a></li>
+                    <li><a href="#">FACEBOOK: TiendaOnline</a></li>
+                    <li><a href="#">YOUTUBE: TiendaOnline</a></li>
+                    <li><a href="#">Twitter: TiendaOnline</a></li>
+               
+                </ul>
+            </div> 
+
+            <div class="footer-links">
+                <h4>Siguenos</h4>
+                <div class="social-link">
+                    <a href=" https://www.facebook.com/profile.php?id=100094834681748"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/tiendaonline5888/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/TiendaOnline588"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCMn23ZvrJkQQ1LHZ8C4WNZA"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-content-1 container">
+         <li><a href="#">TiendaOnline®todos los derechos Reservados©2023</a></li>   
+        </div>
+        
+    </footer>
+
+    <script src="./JS/Javascrip.js"></script> 
+    
+     
+</body>
+
+   <p style="font-family: 'oswald', sans-serif;" >Copyrigth&copy;2023  TiendaOnline</p>
+
+</body>
+</html>
